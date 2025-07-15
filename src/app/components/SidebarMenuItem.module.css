@@ -1,0 +1,8 @@
+@reference "tailwindcss";
+.option {
+    @apply hover:bg-white/5 mx-2 transition-all;
+}
+
+.activeOption{
+    @apply bg-blue-800;
+}
