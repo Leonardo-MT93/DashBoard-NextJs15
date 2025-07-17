@@ -1,4 +1,10 @@
 import { PokemonGrid, PokemonsResponse, SimplePokemon } from "@/pokemons";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: 'Listado de Pokemons',
+  description: 'Listado de Pokemons',
+}
 
 
  
